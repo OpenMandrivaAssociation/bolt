@@ -38,9 +38,6 @@ in order to mitigate the aforementioned security risk that connected devices pos
 %meson -Ddb-name=boltd
 %meson_build
 
-%check
-%meson_test
-
 %install
 %meson_install
 
