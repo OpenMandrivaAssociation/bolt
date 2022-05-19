@@ -59,6 +59,6 @@ in order to mitigate the aforementioned security risk that connected devices pos
 %{_datadir}/polkit-1/actions/org.freedesktop.bolt.policy
 %{_datadir}/polkit-1/rules.d/org.freedesktop.bolt.rules
 %{_datadir}/dbus-1/system-services/org.freedesktop.bolt.service
-%{_mandir}/man1/boltctl.1*
-%{_mandir}/man8/boltd.8*
+#{_mandir}/man1/boltctl.1*
+#{_mandir}/man8/boltd.8*
 %ghost %dir %{_localstatedir}/lib/boltd
