@@ -15,11 +15,11 @@ BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(polkit-agent-1)
 BuildRequires:	systemd
 
-# for the integration test (optional)
+# Optional.
 BuildRequires:	pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(umockdev-1.0)
-BuildRequires:	python3-dbus
-BuildRequires:	python3-dbusmock
+BuildRequires:	python3dist(dbus-python)
+BuildRequires:	python3dist(python-dbusmock)
 
 Requires(post):		rpm-helper
 Requires(preun):	rpm-helper
