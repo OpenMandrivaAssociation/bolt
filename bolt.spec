@@ -1,6 +1,6 @@
 Name:		bolt
-Version:	0.9.5
-Release:	2
+Version:	0.9.6
+Release:	1
 Summary:	Thunderbolt device manager
 Group:		System/Kernel and hardware
 License:	LGPLv2+
