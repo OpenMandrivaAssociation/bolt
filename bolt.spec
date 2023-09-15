@@ -1,6 +1,6 @@
 Name:		bolt
 Version:	0.9.6
-Release:	1
+Release:	2
 Summary:	Thunderbolt device manager
 Group:		System/Kernel and hardware
 License:	LGPLv2+
@@ -21,6 +21,7 @@ BuildRequires:	pkgconfig(umockdev-1.0)
 BuildRequires:	python3dist(dbus-python)
 BuildRequires:	python3dist(python-dbusmock)
 
+BuildRequires:	rpm-helper
 Requires(post):		rpm-helper
 Requires(preun):	rpm-helper
 
