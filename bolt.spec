@@ -1,5 +1,5 @@
 Name:		bolt
-Version:	0.9.8
+Version:	0.9.10
 Release:	1
 Summary:	Thunderbolt device manager
 Group:		System/Kernel and hardware
